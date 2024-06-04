@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <User>
+        <Hero>
+            <Pos>
+                <x>800</x>
+                <y>600</y>
+            </Pos>
+        </Hero>
+        <Buildings>
+            <type>Tower</type>
+            <Pos>
+                <x>800</x>
+                <y>700</y>
+            </Pos>
+        </Buildings>
+    </User>
+    <AIPlayer>
+        <Spawner>
+            <type>Portal</type>
+            <Pos>
+                <x>40</x>
+                <y>40</y>
+            </Pos>
+            <mob rate="50">Imp</mob>
+            <mob rate="0">Spider</mob>
+            <timerAdd>1000</timerAdd>
+        </Spawner>
+        <Spawner>
+            <type>Portal</type>
+            <Pos>
+                <x>800</x>
+                <y>40</y>
+            </Pos>
+            <mob rate="50">Imp</mob>
+            <mob rate="50">Spider</mob>
+            <timerAdd>500</timerAdd>
+        </Spawner>
+        <Spawner>
+            <type>Portal</type>
+            <Pos>
+                <x>1560</x>
+                <y>40</y>
+            </Pos>
+            <mob rate="0">Imp</mob>
+            <mob rate="50">Spider</mob>
+            <timerAdd>0</timerAdd>
+        </Spawner>
+    </AIPlayer>
+</Root>
